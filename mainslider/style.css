@@ -1,0 +1,77 @@
+.header{
+    height: 80px;
+    width: 100%;
+    background: red;
+    text-align: center;
+}
+.inline{
+    display: flex;
+    width: 100%;
+}
+.slider1{
+    height:500px;
+    width: 200px;
+    text-align: center;
+    background: aqua;
+}
+.slider2{
+    text-align: center;
+    height:500px;
+    width: 200px;
+    background: green;
+}
+.content{
+    text-align: center;
+    background: purple;
+    height: 500px;
+    width: 1120px;
+}
+.footer{ 
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    background: pink;
+}
+
+                   /* RESPONSIVE */
+
+               /* TECHNO */
+@media screen and (max-width:400px) {
+    .header{
+        height: 50px;
+        width: 400;
+        background: red;
+        text-align: center;
+    }
+    .inline{
+        display: flex;
+        width: 400px;
+    }
+    .slider1{
+        height: 500px;
+        width: 200px;
+        text-align: center;
+        background: aqua;
+    }
+    .slider2{
+        text-align: center;
+        height: 500px;
+        width: 200px;
+        background: green;
+    }
+    .content{
+        text-align: center;
+        background: purple;
+        height: 500px;
+        width: 400px;
+    }
+    .footer{
+        text-align: center;
+        height: 50px;
+        width: 400px;
+        background: pink;
+    }
+    body{
+        width: 400px;
+    }
+}
